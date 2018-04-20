@@ -1,4 +1,5 @@
 let http = require('http');
+let port = 3000;
 
 http.createServer(function (request, response){
     console.log('Er was een request');
