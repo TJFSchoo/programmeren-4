@@ -1,0 +1,18 @@
+{
+  "name": "les2",
+  "version": "1.0.0",
+  "description": "Mijn eerste dinges",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Yes"
+  ],
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

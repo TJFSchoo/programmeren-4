@@ -1,19 +1,16 @@
-let http = require('http');
-let port = 3000;
+var express = require('express')
+var app = express()
 
-http.createServer(function (request, response){
-    console.log('Er was een request');
-    response.writeHead(200, {'Content-Type': 'text/plain'});
+let result = {
+    firstName: "Tom",
+    lastName: "Schoonbeek",
+    birthDate: "16-05-1990",
+};
 
+app.get('/api/', function (req, res) {
+    res.send(result)
+})
 
-    let result = {
-        firstName: Tom,
-        lastName: Schoonbeek,
-    };
-
-
-    response.write(JSON.stringify(result));
-    response.end();
-}).listen(port);
-
-console.log('De server luistert op port 3000');
+app.listen(3000, () => {
+    console.log('De server draait op port 3000')
+})
