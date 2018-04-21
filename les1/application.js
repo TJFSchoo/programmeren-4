@@ -4,6 +4,10 @@ var version = 1.01;
 console.log(applicationName + " executed.");
 console.log("Running version build " + version + ".");
 
+response.writeHead(200, {'Content-Type': 'text/plain'});
+response.write("Hello world!");
+response.end();
+
 // Person class importeren (const = zelfde als in Java met 'final')
 const Person = require('./classes/Person');
 
