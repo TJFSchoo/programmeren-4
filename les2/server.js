@@ -13,8 +13,12 @@ let result = {
 // Installeer Morgan als logger
 app.use(morgan('dev'));
 
-// Gebruik api routing voor weergeven result
 app.get('/', function (req, res) {
+    res.send("Nothing to display. Type /api or /api/person for data.")
+});
+
+// Gebruik api routing voor weergeven result
+app.get('/api', function (req, res) {
     res.send(result)
 });
 
