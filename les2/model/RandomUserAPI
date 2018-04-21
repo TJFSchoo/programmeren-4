@@ -35,9 +35,9 @@ class RandomUserAPI {
                         "value": "KE 18 81 27 O"
                     },
                     "picture": {
-                        "large": "https://imgur.com/a/EtyRDYI",
-                        "medium": "https://imgur.com/a/EtyRDYI",
-                        "thumbnail": "https://imgur.com/a/EtyRDYI"
+                        "large": "https://i.imgur.com/dNfqgV8.jpg",
+                        "medium": "https://i.imgur.com/dNfqgV8.jpg",
+                        "thumbnail": "https://i.imgur.com/dNfqgV8.jpg"
                     },
                     "nat": "BE"
                 },
