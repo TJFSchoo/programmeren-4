@@ -22,7 +22,7 @@ let result = {
                 "state": "tayside",
                 "postcode": "WX2 8GN"
             },
-            "email": "danielle.mendoza@example.com",
+            "email": "danielle.mendoza@avans.nl",
             "login": {
                 "username": "silvergoose119",
                 "password": "beautifu",
@@ -59,7 +59,7 @@ let result = {
                 "state": "taranaki",
                 "postcode": 24292
             },
-            "email": "jasper.roberts@example.com",
+            "email": "jasper.roberts@avans.nl",
             "login": {
                 "username": "tinybutterfly932",
                 "password": "brittney",
@@ -96,7 +96,7 @@ let result = {
                 "state": "meath",
                 "postcode": 42966
             },
-            "email": "katie.wallace@example.com",
+            "email": "katie.wallace@avans.nl",
             "login": {
                 "username": "blackladybug428",
                 "password": "roberts",
@@ -133,7 +133,7 @@ let result = {
                 "state": "cork city",
                 "postcode": 66029
             },
-            "email": "faith.harper@example.com",
+            "email": "faith.harper@avans.nl",
             "login": {
                 "username": "bigmouse174",
                 "password": "bibi",
@@ -170,7 +170,7 @@ let result = {
                 "state": "south australia",
                 "postcode": 2732
             },
-            "email": "patrick.bailey@example.com",
+            "email": "patrick.bailey@avans.nl",
             "login": {
                 "username": "purpleleopard541",
                 "password": "short",
