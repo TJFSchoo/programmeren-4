@@ -14,7 +14,7 @@ let result = {
 app.use(morgan('dev'));
 
 // Gebruik api routing voor weergeven result
-app.get('/api/', function (req, res) {
+app.get('/', function (req, res) {
     res.send(result)
 });
 
@@ -23,6 +23,6 @@ app.get('/api/person', function (req, res) {
     res.send(user);
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('De server draait op port 3000')
 });
