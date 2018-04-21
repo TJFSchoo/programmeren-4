@@ -57,5 +57,5 @@ app.post('/api/person', function (req, res) {
 });
 
 app.listen(port, () => {
-    console.log('De server draait op port ' + port);
+    +    console.log('De server draait op port ' + port);
 });
