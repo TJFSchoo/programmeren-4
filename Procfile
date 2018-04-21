@@ -1,1 +1,1 @@
-web: node les1/application.js
+web: node les2/server.js
