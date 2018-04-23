@@ -1,7 +1,6 @@
 class RandomUserAPI {
 
     constructor() {
-        // Alle attributen in een class beginnen met underscore '_'
         this._content = {
             "results": [
                 {
